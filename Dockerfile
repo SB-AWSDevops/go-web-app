@@ -1,6 +1,6 @@
 # Stage 1: Build the Go application using the official Go image
 
-FROM golang:1.21 as base
+FROM golang:1.23 as base
 
 WORKDIR /app
 
